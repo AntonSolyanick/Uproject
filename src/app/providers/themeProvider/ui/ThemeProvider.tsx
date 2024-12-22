@@ -22,9 +22,9 @@ const ThemeProvider = ({ children }: ThemeProviderProps) => {
   );
 
   return (
-    <ThemeContext.Provider value={defaultContextValue}>
-      {children}
-    </ThemeContext.Provider>
+      <ThemeContext.Provider value={defaultContextValue}>
+          {children}
+      </ThemeContext.Provider>
   );
 };
 

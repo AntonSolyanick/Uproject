@@ -6,7 +6,6 @@ import { Navbar } from "widgets/Navbar";
 import { AppRouter } from "./providers/router";
 import { Sidebar } from "widgets/Sidebar";
 import { Suspense } from "react";
-import { useTranslation } from "react-i18next";
 
 const App = () => {
   const { theme, toggleTheme } = useTheme();
@@ -19,6 +18,7 @@ const App = () => {
       >
         <Navbar className="nav"></Navbar>
         <div className="content-page">
+          efwe
           <Sidebar />
           <AppRouter />
         </div>
