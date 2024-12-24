@@ -19,7 +19,7 @@
   }
   // "include": [
   //   "../config/jest/setupTests.ts",
-  //   "**/*.ts",
+  //   "./src/**/*.ts",
   //   "**/*.tsx",
   //   "next-env.d.ts"
   // ]
